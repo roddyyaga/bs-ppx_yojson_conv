@@ -1,0 +1,31 @@
+{
+   "name": "@roddynpm/bs-ppx_yojson_conv",
+   "version": "0.1.0",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/roddyyaga/bs-ppx_yojson_conv.git"
+   },
+   "scripts": {
+      "prepare": "npm run clean && bsb -make-world",
+      "clean": "bsb -clean-world",
+      "test": "echo \"Error: no tests specified\" && exit 1"
+   },
+   "keywords": [
+      "BuckleScript",
+      "ReasonML",
+      "OCaml",
+      "Yojson",
+      "ppx"
+   ],
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/roddyyaga/bs-ppx_yojson_conv/issues"
+   },
+   "homepage": "https://github.com/roddyyaga/bs-ppx_yojson_conv#readme",
+   "devDependencies": {
+      "bs-platform": "^6.0.0"
+   },
+   "peerDependencies": {
+      "bs-platform": "^6.0.0"
+   }
+}
