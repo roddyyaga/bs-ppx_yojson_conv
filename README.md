@@ -17,7 +17,7 @@ and this ppx flag to `bsconfig.json`:
 ```
 "ppx-flags": ["@roddynpm/bs-ppx_yojson_conv/ppx.sh"]
 ```
-Currently there is only one ppx binary, for my compiler/operating system.
+Currently there is only the one ppx binary that works for my setup (in terms of OS etc.). Please create an issue if you would like others.
 
 # Usage
 Just like native:
